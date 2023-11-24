@@ -2,5 +2,5 @@
 
 class Cat {
   public $color;
-  public $age;
+  private $age;
 }

@@ -5,4 +5,5 @@ class Dog {
   private $age = 0;
 }
 
-
+// Kā veidot metodes?
+// Kas ir konstruktors?
