@@ -3,16 +3,16 @@
 include "Tire.php";
 include "Car.php";
 include "Train.php";
+include "Math.php";
+// Train::makeNoise();
 
-Train::makeNoise();
+// $myTire1 = new Tire(30, "Winter", 69);
 
-$myTire1 = new Tire(30, "Winter", 69);
+// echo $myTire1->size."<br>";
+// echo $myTire1->type."<br>";
 
-echo $myTire1->size."<br>";
-echo $myTire1->type."<br>";
-
-echo Car::$describe;
-Car::makeNoise();
+// echo Car::$describe;
+// Car::makeNoise();
 
 // include "Dog.php";
 // include "Cat.php";
@@ -49,4 +49,9 @@ Car::makeNoise();
 
 // // var_dump($cats);
 
-
+//Math::addTwo(4,9);
+echo Math::addTwo(4,9) . "<br>";
+echo Math::factorial(10);
+echo Math::sum([4, 2]) . "<br>";
+echo Math::average([1,3]) . "<br>";
+echo Math::max([3, 5, 7, 69]);
